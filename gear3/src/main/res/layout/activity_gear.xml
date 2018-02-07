@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gearBaseContainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/gear_title_bar" />
+
+    <ViewStub
+        android:id="@+id/gearNormalViewStub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/inflatedNormal"
+        android:layout="@layout/gear_main_content" />
+
+    <ViewStub
+        android:id="@+id/gearDrawerLayoutViewStub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/inflatedgearDrawerLayout"
+        android:layout="@layout/gear_main_drawerlayout" />
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/selector_squ_n_white_p_press"
+    >
+
+    <TextView
+        android:id="@+id/menuNameTV"
+        style="@style/textSubhead"
+        android:text="11"
+
+        android:layout_marginHorizontal="@dimen/horizontalMargin"
+        android:layout_marginVertical="@dimen/verticalMargin"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+apply plugin: 'com.android.library'
+
+
+ext {
+    supportLibrary = '26.1.0'
+    buildTools = '26.0.2'
+    compileSdk = 26
+    targetSdk = 23
+}
+
+android {
+    compileSdkVersion compileSdk
+    buildToolsVersion buildTools
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    buildToolsVersion '26.0.2'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:recyclerview-v7:'+ supportLibrary
+    implementation 'com.android.support:appcompat-v7:' + supportLibrary
+    api 'com.android.support:cardview-v7:' + supportLibrary
+    api 'com.android.support:design:'+ supportLibrary
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    implementation 'pub.devrel:easypermissions:0.4.2'
+
+    api 'com.jakewharton:butterknife:7.0.0'
+    api 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    api 'io.reactivex:rxandroid:1.1.0'
+    api 'io.reactivex:rxjava:1.1.0'
+
+
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.google.code.gson:gson:2.7'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+
+    api 'pub.devrel:easypermissions:0.4.2'
+}

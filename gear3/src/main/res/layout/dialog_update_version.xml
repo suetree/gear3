@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+         android:minWidth="200dp"
+        android:layout_height="wrap_content"
+        style="@style/pageNormal"
+        android:background="@color/white"
+        >
+
+
+    <TextView
+        android:id="@+id/title_tv"
+        style="@style/textSubhead"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="发现新版本!"
+        />
+
+    <View style="@style/verticalDivider"
+        android:layout_marginTop="@dimen/verticalMargin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/verticalMargin"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/version_tv"
+            style="@style/textNormal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="1.0"
+            android:textColor="@color/red"
+            />
+
+        <TextView
+            android:id="@+id/date_tv"
+            style="@style/textCaption"
+            android:text="2017-06-25"
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/describe_tv"
+        style="@style/textNormal"
+        android:layout_marginTop="@dimen/verticalMargin"
+        android:text="描述"
+        />
+
+
+
+    <TextView
+        android:id="@+id/submit_btn"
+        style="@style/buttonLargeNormal"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/verticalMargin"
+        android:gravity="center"
+        android:text="升级"
+        />
+    </LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+   <!-- 字体尺寸-->
+    <dimen name="textSizeHeadline">20sp</dimen>
+    <dimen name="textSizeTitle">18sp</dimen>
+    <dimen name="textSizeSubhead">16sp</dimen>
+    <dimen name="textSizeBody">14sp</dimen>
+    <dimen name="textSizeCaption">12sp</dimen>
+
+    <!-- 外间距-->
+    <dimen name="verticalMargin">8dp</dimen>
+    <dimen name="verticalSmallMargin">4dp</dimen>
+    <dimen name="verticalLargeMargin">16dp</dimen>
+    <dimen name="horizontalMargin">16dp</dimen>
+    <dimen name="horizontalSmallMargin">8dp</dimen>
+    <dimen name="horizontalLargeMargin">32dp</dimen>
+
+    <!-- 内间距-->
+    <dimen name="verticalPadding">4dp</dimen>
+    <dimen name="verticalSmallPadding">2dp</dimen>
+    <dimen name="verticalLargePadding">8dp</dimen>
+    <dimen name="horizontalPadding">8dp</dimen>
+    <dimen name="horizontalSmallPadding">4dp</dimen>
+    <dimen name="horizontalLargePadding">16dp</dimen>
+
+
+    <dimen name="lineHeightPX">1px</dimen>
+    <dimen name="lineHeight">1dp</dimen>
+    <dimen name="lineHeightMiddle">8dp</dimen>
+    <dimen name="lineHeightLarge">8dp</dimen>
+
+      <dimen name="editTextHeight">45dp</dimen>
+      <dimen name="buttonHeight">35dp</dimen>
+      <dimen name="buttonHeightSmall">30dp</dimen>
+      <dimen name="buttonHeightLarge">45dp</dimen>
+      <dimen name="settingItemHeight">45dp</dimen>
+
+
+
+
+
+</resources>
