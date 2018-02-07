@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
-
-
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.surethree'
+version = '1.0'
 ext {
     supportLibrary = '26.1.0'
     buildTools = '26.0.2'
