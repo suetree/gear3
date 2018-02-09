@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.surethree'
-version = '1.0'
+version = '1.1'
 ext {
-    supportLibrary = '26.1.0'
-    buildTools = '26.0.2'
-    compileSdk = 26
+    supportLibrary = '27.0.2'
+    buildTools = '27.0.2'
+    compileSdk = 27
     targetSdk = 23
 }
 
@@ -46,7 +46,7 @@ android {
     }
 
 
-    buildToolsVersion '26.0.2'
+    //buildToolsVersion '26.0.2'
 }
 
 dependencies {
@@ -62,15 +62,15 @@ dependencies {
 
     implementation 'pub.devrel:easypermissions:0.4.2'
 
-    api 'com.jakewharton:butterknife:7.0.0'
-    api 'com.squareup.picasso:picasso:2.5.2'
+    api 'com.jakewharton:butterknife:8.6.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
     implementation 'org.greenrobot:eventbus:3.0.0'
-    api 'io.reactivex:rxandroid:1.1.0'
-    api 'io.reactivex:rxjava:1.1.0'
+    api 'io.reactivex:rxandroid:1.2.1'
+    api 'io.reactivex:rxjava:1.1.10'
 
 
-    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
-    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
 
     implementation 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
