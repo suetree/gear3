@@ -30,7 +30,7 @@ public abstract class GearFragment extends Fragment implements GearView {
     public void onDestroyView() {
         super.onDestroyView();
         GearLog.e(TAG, " onDestroyView();");
-        ButterKnife.unbind(this);
+        //ButterKnife.unbind(this);
     }
 
     @Override

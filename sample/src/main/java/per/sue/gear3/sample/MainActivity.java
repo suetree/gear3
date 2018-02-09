@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import per.sue.gear3.ui.GearActivity;

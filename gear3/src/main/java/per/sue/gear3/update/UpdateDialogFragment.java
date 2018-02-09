@@ -15,11 +15,8 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
-import java.util.ArrayList;
-import butterknife.Bind;
-import butterknife.ButterKnife;
+
 import per.sue.gear3.R;
 
 /**
