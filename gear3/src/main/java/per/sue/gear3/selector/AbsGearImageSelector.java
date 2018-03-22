@@ -13,7 +13,7 @@ import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.daimajia.numberprogressbar.NumberProgressBar;
+import per.sue.gear3.widget.NumberProgressBar;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

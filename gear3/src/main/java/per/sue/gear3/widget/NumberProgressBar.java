@@ -1,4 +1,4 @@
-package com.daimajia.numberprogressbar;
+package per.sue.gear3.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,8 +13,8 @@ import android.view.View;
 
 import per.sue.gear3.R;
 
-import static com.daimajia.numberprogressbar.NumberProgressBar.ProgressTextVisibility.Invisible;
-import static com.daimajia.numberprogressbar.NumberProgressBar.ProgressTextVisibility.Visible;
+import static per.sue.gear3.widget.NumberProgressBar.ProgressTextVisibility.Invisible;
+import static per.sue.gear3.widget.NumberProgressBar.ProgressTextVisibility.Visible;
 
 /**
  * Created by daimajia on 14-4-30.
@@ -151,6 +151,13 @@ public class NumberProgressBar extends View {
     private boolean mDrawReachedBar = true;
 
     private boolean mIfDrawText = true;
+
+
+
+    public interface OnProgressBarListener {
+
+        void onProgressChange(int current, int max);
+    }
 
     /**
      * Listener
